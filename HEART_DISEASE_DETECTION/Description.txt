@@ -1,0 +1,40 @@
+Heart disease prediction
+
+DESCRIPTION
+Our machine learning model in python can be used in predicting heart diseases prediction.
+Prediction of Heart Diseases is achieved using ML based Support Vector Machine Algorithm with heart dataset implemented in python.
+We have also done data cleaning, data pre-processing, exploratory data analysis in our file to get a clear view for heart diseases prediction.
+
+Dataset: https://drive.google.com/file/d/1fAO9_fXsrJLeeRpi68EPx4LmNOPTm25O/view?usp=sharing
+
+Totally we have 14 columns in this dataset which contains:
+1.Age
+2.Sex
+3. pain type (4 values)
+4.Resting blood pressure
+5.Serum cholesterol in mg/dl
+6.Fasting blood sugar > 120 mg/dl
+7.Resting electrocardiographic results (values 0,1,2)
+8.Maximum heart rate achieved
+9.exercise induced angina
+10.Oldpeak = ST depression induced by exercise relative to rest
+11.The slope of the peak exercise ST segment
+12. of major vessels (0-3) coloured by fluoroscopy
+13.Thal: 3 = normal; 6 = fixed defect; 7 = reversible defect
+14. This is Target column which contains value as 0 and 1. 0 represents person as healthy and 1 represents person has heart disease.
+
+Important libraries used: 
+1.	Numpy
+2.	Pandas
+3.	Sklearn
+Training model: Logistics regression 
+This this binary classification project hence we used logistic regression model for prediction .
+
+For testing accuracy and performance we used following algorithms:
+1.	Linear regression
+2.	KNN
+3.	Logistic regression
+4.	Random forest
+
+
+
